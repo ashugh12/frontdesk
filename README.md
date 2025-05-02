@@ -47,16 +47,6 @@ pip install -r requirements.txt
 cred = credentials.Certificate("path/to/your-firebase-key.json")
 ```
 
-### 5. Configure Environment Variables
-
-* Create a `.env` file in the project root with any required keys (e.g., LiveKit, OpenAI, Deepgram).
-* Example:
-
-  ```
-  OPENAI_API_KEY=your_key
-  LIVEKIT_API_KEY=your_key
-  LIVEKIT_SECRET=your_secret
-  ```
 
 ---
 
