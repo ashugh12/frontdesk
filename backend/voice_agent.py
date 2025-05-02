@@ -58,7 +58,7 @@ async def entrypoint(ctx: agents.JobContext):
 
     except Exception as e:
         logging.error(f"🚨 Error handling speech input: {str(e)}")
-
+        
 def send_help_request(user_message):
     payload = {"query": user_message}
 
